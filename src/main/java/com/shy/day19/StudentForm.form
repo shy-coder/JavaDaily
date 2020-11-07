@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.shy.day19.StudentForm">
+  <grid id="27dc6" binding="mainPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="901" height="634"/>
+    </constraints>
+    <properties>
+      <background color="-9016136"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="a24ae" class="javax.swing.JButton" binding="button2" default-binding="true">
+        <constraints border-constraint="South"/>
+        <properties>
+          <text value="Button"/>
+        </properties>
+      </component>
+      <component id="cb42" class="javax.swing.JButton" binding="button4" default-binding="true">
+        <constraints border-constraint="East"/>
+        <properties>
+          <text value="Button"/>
+        </properties>
+      </component>
+      <grid id="7ee95" binding="centerPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="afb62" class="javax.swing.JLabel" binding="resultLabel">
+            <constraints/>
+            <properties>
+              <font size="20" style="1"/>
+              <text value="体检结果："/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="ad422" binding="topPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+        <constraints border-constraint="North"/>
+        <properties>
+          <background color="-5615473"/>
+          <foreground color="-5615486"/>
+          <preferredSize width="0" height="50"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="e6edc" class="javax.swing.JButton" binding="button1" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Button"/>
+            </properties>
+          </component>
+          <component id="44b8b" class="javax.swing.JButton" binding="button5" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Button"/>
+            </properties>
+          </component>
+          <component id="aa209" class="javax.swing.JButton" binding="button6" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Button"/>
+            </properties>
+          </component>
+          <component id="64fc" class="javax.swing.JButton" binding="button7" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Button"/>
+            </properties>
+          </component>
+          <component id="e73f" class="javax.swing.JButton" binding="button8" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Button"/>
+            </properties>
+          </component>
+          <component id="1cec4" class="javax.swing.JButton" binding="button9" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Button"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="a0774" binding="leftPanel" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="West"/>
+        <properties>
+          <background color="-3962253"/>
+          <doubleBuffered value="false"/>
+          <minimumSize width="40" height="10"/>
+          <preferredSize width="200" height="10"/>
+        </properties>
+        <border type="bevel-raised" title="titile"/>
+        <children>
+          <component id="abc17" class="javax.swing.JTextField" binding="nameField">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="2" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="5e545" class="javax.swing.JTextField" binding="weightField">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="43684" class="javax.swing.JButton" binding="检查Button" default-binding="true">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="检查"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
