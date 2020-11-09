@@ -23,7 +23,9 @@
       </component>
       <grid id="7ee95" binding="centerPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
         <constraints border-constraint="Center"/>
-        <properties/>
+        <properties>
+          <background color="-1"/>
+        </properties>
         <border type="none"/>
         <children>
           <component id="afb62" class="javax.swing.JLabel" binding="resultLabel">
@@ -38,7 +40,7 @@
       <grid id="ad422" binding="topPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
         <constraints border-constraint="North"/>
         <properties>
-          <background color="-5615473"/>
+          <background color="-7827286"/>
           <foreground color="-5615486"/>
           <preferredSize width="0" height="50"/>
         </properties>
@@ -86,7 +88,7 @@
         <margin top="0" left="0" bottom="0" right="0"/>
         <constraints border-constraint="West"/>
         <properties>
-          <background color="-3962253"/>
+          <background color="-9256014"/>
           <doubleBuffered value="false"/>
           <minimumSize width="40" height="10"/>
           <preferredSize width="200" height="10"/>
